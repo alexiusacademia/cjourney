@@ -18,3 +18,9 @@ body :not(pre) > code[class*="language-"],
 body pre[class*="language-"] {
   @apply bg-gray-800;
 }
+
+.reading-time {
+  text-align: center;
+  font-weight: lighter;
+  color: grey;
+}
