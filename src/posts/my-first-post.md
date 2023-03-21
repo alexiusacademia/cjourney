@@ -3,7 +3,7 @@ title: Start of Journey
 description: Overview of my previous exposure to the C language back in the day,
   what stops me from learning it and what drives me now
 author: syncster
-date: 2023-03-20T15:17:09.653Z
+date: 2023-03-21T14:16:13.316Z
 tags:
   - left
   - center
@@ -23,4 +23,16 @@ B﻿eing the only familiar language to me at the time, VB6 is what I used even o
 
 I﻿n 2010 to 2011, I tried web development with PHP. At this time, I haven't gotten much into a real world problem solving software but just the basics. I tried to create a social networking site but didn't got much traction. This was not the first time I tried web development, the first experience I had was back in college around 2007-2008 where wapsites (Wireless Application Protocol) are popular. I created a wapsite back then using the wapsite creator `wen.ru`.
 
+D﻿uring this time on 2011, I tried learning and going back to C with modern tools. No Turbo-C anymore but with modern IDEs. However, the thing that struck me the most is when I come to the topic of pointers. I seem to have a hard time grasping the concept. This is my biggest reason to stop learning C and pivot to easier to learn languages. 
+
+A﻿nd so I tried to pursue PHP. During those, I haven't use any framework for PHP yet. Just old script embedding to HTML codes.
+
+F﻿ast forward to 2016, I tried again reading about the C language from the start. Again, I was stuck at pointers. Still can't figure out even the fundamentals. So I decided that my brain cannot really cope with the language.
+
 ## What motivates me again
+
+Y﻿ears have passed and I created real world problem solving softwares. One of these is by using VB.net. So it's a desktop software. I started building them on 2013 and took almost one (1) year to publish. I didn't publish it to a website or marketplace. I gave it up for free for use in a Government agency.
+
+T﻿he next project I created was on 2016. When Google announced that Picasa Web will no longer be available. The reason for this is that we are using the service for uploading photos for reporting purposes. The photos uploaded there were geotagged photos and will be generated with google earth software for reporting purposes. So what I did is I wrote a PHP program that has the minimum capability of Picasa that can generate Google Earth file (KML). In this file, the URLs of the uploaded images are embedded. I sold it then and that was the first money I created using coding.
+
+A﻿fter that, I decided to leave PHP and go with another language called Python.
