@@ -35,4 +35,12 @@ Y﻿ears have passed and I created real world problem solving softwares. One of 
 
 T﻿he next project I created was on 2016. When Google announced that Picasa Web will no longer be available. The reason for this is that we are using the service for uploading photos for reporting purposes. The photos uploaded there were geotagged photos and will be generated with google earth software for reporting purposes. So what I did is I wrote a PHP program that has the minimum capability of Picasa that can generate Google Earth file (KML). In this file, the URLs of the uploaded images are embedded. I sold it then and that was the first money I created using coding.
 
-A﻿fter that, I decided to leave PHP and go with another language called Python.
+A﻿fter that, I decided to leave PHP and go with another language called Python. When I tried python syntax, oh man I thought at that time, I will never going back to C again. LOL. 
+
+I﻿ was fascinated by the friendliness of the language and taught myself how to create web application using Python. And so I did and created my first SaaS using the Django framework. The year was 2019 but the SaaS part is not successful. I only had one client and sold it to them directly, running on their local machine. It is a billing helper for Business Permit application. it generates the amount to be paid at LGU (Local Government Unit) that will be used by their Engineering Department.
+
+A﻿fter another year, I created my second app in Django and this time, I can say it was successful. It's still running today with growing clients.
+
+H﻿owever, I can't stop thinking about the C language. This weekend, I'm thinking of developing more my understanding of computer programming and I think that the best way for me is to go close to the hardware. And what language that I know that is high level enough for the programmer but low level enough for the machine is C. And so I decided to give it another go. 
+
+T﻿his weekend, I started reviewing C. With the help of ChatGPT, instead of buying or downloading a book, I instructed the AI chat model to make a syllabus for learning C. Not just one syllabus but of many. I instructed it to act as different people and create syllabus as those people would create if they were the ones to do it.
