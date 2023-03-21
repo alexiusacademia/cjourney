@@ -11,13 +11,13 @@ tags:
 ---
 ## E﻿arly exposure to programming
 
-M﻿y early days of being able to touch the C language is around 2006 on my 2nd year in college where we have a subject known as *Computer 1*. I remember only one program I have written in C at that time which is the conversion of an integer number to Roman Numerals. It was satisfying. That was my first program in any language and for the first time, the computer did what I intend it to do.
+I first encountered the C language in 2006, during my second year of college. I remember only one program I have written in C at that time which is the conversion of an integer number to Roman Numerals. It was satisfying. That was my first program in any language and for the first time, the computer did what I intend it to do.
 
-T﻿hese were the days when most used in this time of learning C was Turbo-C. This was the only IDE back then that was introduced to us. It was not even explained that it was called IDE. And that was the exposure I had with C in college, a one semester of one computer subject.
+At the time, Turbo-C was the most commonly used IDE for learning C. This was the only IDE back then that was introduced to us. It was not even explained that it was called aIDE. And that was the exposure I had with C in college, a one semester of one computer subject.n 
 
 ## Hindrance to C
 
-T﻿he next language that was introduced to us was C++. And the experience were the same, not quite comprehensive and just basic stuff. Then fast forward to third year, somewhere in 2007, where the language visual basic 6.0 was introduced. Well that was obviously easier to comprehend with if you look at it right now. Because the controls you have to do are just drag and drop away. All you left to code is the logic of the program.
+We were then introduced to C++. And the experience were the same, not quite comprehensive and just basic stuff. Then fast forward to third year, somewhere in 2007, where the language visual basic 6.0 was introduced. Well that was obviously easier to comprehend with if you look at it right now. Because the controls you have to do are just drag and drop away. All you left to code is the logic of the program.
 
 B﻿eing the only familiar language to me at the time, VB6 is what I used even on my thesis project where I wrote a software for structural analysis of various materials. That was not the last time I used VB6. I also used it more than a year later in a job to write material estimates software.
 
@@ -44,3 +44,5 @@ A﻿fter another year, I created my second app in Django and this time, I can sa
 H﻿owever, I can't stop thinking about the C language. This weekend, I'm thinking of developing more my understanding of computer programming and I think that the best way for me is to go close to the hardware. And what language that I know that is high level enough for the programmer but low level enough for the machine is C. And so I decided to give it another go. 
 
 T﻿his weekend, I started reviewing C. With the help of ChatGPT, instead of buying or downloading a book, I instructed the AI chat model to make a syllabus for learning C. Not just one syllabus but of many. I instructed it to act as different people and create syllabus as those people would create if they were the ones to do it.
+
+T﻿his is now what I consider as the start of my C journey and will definitely push my way though. Thank you for reading, and I hope you'll join me on this journey!
