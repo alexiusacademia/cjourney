@@ -3,7 +3,7 @@
 1. Introduction to C Programming
 
    - [x] History and importance of C
-   - [ ] Overview of C language features
+   - [x] Overview of C language features
    - [x] Setting up a C development environment
 
 2. Basic Syntax and Structure
