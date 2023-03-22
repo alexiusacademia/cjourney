@@ -10,7 +10,7 @@
 
    - [x] Data types and variables
    - [x] Operators and expressions
-   - [ ] Basic input/output (printf, scanf)
+   - [x] Basic input/output (printf, scanf)
    - [x] Control structures (if, else, switch, loops)
    - [x] Functions
 
