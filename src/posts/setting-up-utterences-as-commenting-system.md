@@ -7,9 +7,10 @@ date: 2023-03-22T06:05:18.770Z
 tags:
   - comment system
 ---
+
 Hello, and welcome back to my C programming journey blog. I'm excited to share my second article with you today, and in this post, I'm going to be talking about how I set up a commenting system on this blog using a service called Utterances.
 
-Instead of just me talking,I wanted to add some dynamic content to my blog, and one of the things I thought would be a commenting system so that I can get the insights from readers. However, I didn't want to use a service like Disqus, which stores the comment data on their servers. Instead, I decided to go with Utterances, which stores the comment data in issues on GitHub. 
+Instead of just me talking,I wanted to add some dynamic content to my blog, and one of the things I thought would be a commenting system so that I can get the insights from readers. However, I didn't want to use a service like Disqus, which stores the comment data on their servers. Instead, I decided to go with Utterances, which stores the comment data in issues on GitHub.
 
 ## What is Utterances?
 
@@ -23,22 +24,21 @@ I found setting up Utterances very straightforward, here’s what I did:
 
 1. First, head over to the Utterances website and click on the "Get started" button.
 2. Next, you'll need to authorize Utterances to access your GitHub account. Click on the "Authorize GitHub" button and follow the prompts to give Utterances access.
-3. Once you’ve authorized Utterances, choose the repository of your static site where the comments will be stored. 
+3. Once you’ve authorized Utterances, choose the repository of your static site where the comments will be stored.
 4. After you've chosen your repository, you'll need to configure Utterances by adding a script to your blog's HTML code. The Utterances website provides detailed instructions on how to do this based on the static site generator you're using. Here is what worked for me:
 
-   `<script src="https://utteranc.es/client.js"`
+```
+ <script src="https://utteranc.es/client.js"
+  repo="{username/repo_title}"
+  issue-term="pathname"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+ </script>
+```
 
-   `repo="alexiusacademia/cjourney"`
+Just change the `{username/repo_title}` to your username and repository. Place the code below each article of your blog and see the result!
 
-   `issue-term="pathname"`
-
-   `theme="github-light"`
-
-   `crossorigin="anonymous"`
-
-   `async>`
-
-   `</script>`
 5. Finally, you can customize the look and feel of your Utterances comments by editing the CSS on your blog or change the theme in the JS code you inserted.
    And that's it! Once you've completed these steps, your blog should have a fully-functional commenting system powered by Utterances.
 
