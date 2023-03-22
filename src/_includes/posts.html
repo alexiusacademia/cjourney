@@ -22,43 +22,4 @@ prism: true
     <article class="prose lg:prose-xl my-4 mx-auto">
         {{ content | safe }}</article>
 
-    <form method="POST" action="https://staticmaninstance.herokuapp.com/v3/entry/alexiusacademia/cjourney/master/comments">
-        <input type="hidden" name="options[redirect]" value="{{ page.url }}">
-        <input type="hidden" name="fields[postId]" value="{{ post_id }}">
-          
-        <label for="name">Name:</label>
-        <input type="text" name="fields[name]" id="name" required>
-          
-        <label for="email">Email:</label>
-        <input type="email" name="fields[email]" id="email" required>
-          
-        <label for="message">Comment:</label>
-        <textarea name="fields[message]" id="message" required></textarea>
-          
-        <button type="submit">Submit</button>
-    </form>
-          
-    {% set post_id = fileSlug %}
-    {% set post_comments = [] %}
-    {% for comment in comments %}
-    {% if comment.fields.postId == post_id %}
-        {% set post_comments = post_comments.concat(comment) %}
-    {% endif %}
-    {% endfor %}
-
-    {% if post_comments.length %}
-    <h3>Comments:</h3>
-    <ul>
-        {% for comment in post_comments %}
-        <li>
-            <strong>{{ comment.fields.name }}</strong> ({{ comment.fields.date }})
-            <p>{{ comment.fields.message }}</p>
-        </li>
-        {% endfor %}
-    </ul>
-    {% else %}
-    <p>No comments yet. Be the first!</p>
-    {% endif %}
-
-
 </div>
