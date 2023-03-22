@@ -61,7 +61,17 @@ module.exports = function (eleventyConfig) {
   return {
     dir: {
       input: "src",
+      output: "_site",
     },
+    passthroughFileCopy: true,
+    templateFormats: ["html", "njk", "md"],
     htmlTemplateEngine: "njk",
+    markdownTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+
+    // Add this line to enable file slugs
+    slugify: function (input) {
+      return input.toLowerCase().replace(/[^\w]+/g, "-");
+    },
   };
 };
