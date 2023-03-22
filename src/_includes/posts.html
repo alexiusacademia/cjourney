@@ -22,7 +22,7 @@ prism: true
     <article class="prose lg:prose-xl my-4 mx-auto">
         {{ content | safe }}</article>
 
-    <form method="POST" action="https://api.staticman.net/v3/entry/alexiusacademia/cjourney/master/comments">
+    <form method="POST" action="https://staticmaninstance.herokuapp.com/v3/entry/alexiusacademia/cjourney/master/comments">
         <input type="hidden" name="options[redirect]" value="{{ page.url }}">
         <input type="hidden" name="fields[postId]" value="{{ post_id }}">
           
