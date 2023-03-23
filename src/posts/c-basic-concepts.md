@@ -9,10 +9,8 @@ tags:
 ---
 ## C﻿oncepts Review
 
-
+I﻿n this entry, I will try to create a project-based approach on the concepts learned in the C language. Perhaps, not just for this entry but to most concept reviews in the future. I find this more motivational than just pure concepts and topics as this gives more satisfying results.
 
 ## P﻿roject to Create
-
-
 
 ## C﻿onclusion
