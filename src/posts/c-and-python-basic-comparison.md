@@ -7,7 +7,6 @@ tags:
   - programming
   - comparison
 ---
-
 Hello everyone and welcome to my next article of this journey!
 
 To get more satisfaction and motivation in learning C, I wanted to know if what they and the books say is true,
@@ -107,3 +106,9 @@ print("Calculation using python:")
 print("Water depth:", round(water_depth, 3))
 print("Time in milliseconds:", diff)
 ```
+
+Running this multiple times gives me the same result. The compiled program written in C is much faster than the one from python.
+
+
+
+![c-python](https://user-images.githubusercontent.com/19258246/227296560-eeb22b57-d3ca-45b8-a519-d2cd93a7c758.png)
