@@ -109,6 +109,12 @@ print("Time in milliseconds:", diff)
 
 Running this multiple times gives me the same result. The compiled program written in C is much faster than the one from python.
 
-
-
 ![c-python](https://user-images.githubusercontent.com/19258246/227296560-eeb22b57-d3ca-45b8-a519-d2cd93a7c758.png)
+
+A﻿s we can see above, the program written in C which is the `flow_c.app` is roughly around 10x faster than the one written in Python in the file `flow_python.py`.
+
+## Conclusion
+
+T﻿his is just one performance comparison between Python and C and sure there will be more in the future. As of this simple example, C has already proven how fast it is in this particular problem and I will explore more aspects as necessary in the future.
+
+T﻿hank you again for staying with me in this post, see you next time!
