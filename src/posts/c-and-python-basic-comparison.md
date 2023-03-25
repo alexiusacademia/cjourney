@@ -7,15 +7,16 @@ tags:
   - programming
   - comparison
 ---
+
 Hello everyone and welcome to my next article of this journey!
 
-To get more satisfaction and motivation in learning C, I wanted to know if what they and the books say is true,
+To get more satisfaction and motivation in learning C, I wanted to know if what other people and the books says is true,
 that C is really a fast language in terms of performace. So here I am.
 
 In my previous post, I wrote a code for solving the water depth on a rectangular open channel to show the basic
 concepts of the language. To get a benchmark for these two languages, I used that code and then convert it to python to get
 a comparison. The problem is when I ran the code in C and looked at the calculation time in milliseconds. In python, I get something
-but in C, I get zero. So to elevate and simulate a longer response, I used large input values and smaller increment value.
+but in C, I get zero. This is already a hint how fast C is but to make sure and see how C does, I tried adjusting the parameters. To elevate and simulate a longer response, I used large input values for discharge and smaller increment value. This I think should significantly lengthen the time of the calculation by more the doubled.
 
 Here is the code for C:
 
@@ -113,8 +114,10 @@ Running this multiple times gives me the same result. The compiled program writt
 
 A﻿s we can see above, the program written in C which is the `flow_c.app` is roughly around 10x faster than the one written in Python in the file `flow_python.py`.
 
-## Conclusion
+## Takeaways
 
 T﻿his is just one performance comparison between Python and C and sure there will be more in the future. As of this simple example, C has already proven how fast it is in this particular problem and I will explore more aspects as necessary in the future.
 
-T﻿hank you again for staying with me in this post, see you next time!
+Additionally in the code above, it demonstrated the use of a library `time` and how to get the time it takes for a calculation by getting the current time of the computer before and after the calculation.
+
+Thank you again for staying with me in this post, see you next time!
