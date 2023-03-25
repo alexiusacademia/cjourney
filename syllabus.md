@@ -25,7 +25,7 @@
 
    - [x] Pointer variables and operators
    - [x] Pointer arithmetic
-   - [ ] Pointers and arrays
+   - [x] Pointers and arrays
    - [ ] Pointers to functions
    - [ ] Dynamic memory allocation (malloc, calloc, realloc, free)
 
