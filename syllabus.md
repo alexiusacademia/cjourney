@@ -18,7 +18,7 @@
 
    - [x] Declaration and initialization
    - [ ] Multidimensional arrays
-   - [ ] String manipulation functions
+   - [x] String manipulation functions
    - [ ] Working with command-line arguments
 
 4. Pointers
@@ -27,7 +27,7 @@
    - [x] Pointer arithmetic
    - [x] Pointers and arrays
    - [ ] Pointers to functions
-   - [ ] Dynamic memory allocation (malloc, calloc, realloc, free)
+   - [x] Dynamic memory allocation (malloc, calloc, realloc, free)
 
 5. Structures and Unions
 
