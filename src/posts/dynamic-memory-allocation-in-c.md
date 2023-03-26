@@ -8,5 +8,6 @@ author: syncster
 date: 2023-03-27T04:29:26.836Z
 tags:
   - programming
+draft: true
 ---
 A﻿side from pointers, this is also what confuses me back then when I was first learning C, the dynamic memory allocation. When I learned to program in Python, I wonder why would I ever go back to C with the limitation of the length of arrays to what length was declared to them.
