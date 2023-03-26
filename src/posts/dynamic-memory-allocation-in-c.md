@@ -82,6 +82,12 @@ int main()
 }
 ```
 
-Here we use the library `stdlib` by `<stdlib.h>` to use the `free` function free up the memory used by `str1`.  If we do not free the memory, it will result in what is called a memory leak. 
+Here we use the library `stdlib` by `<stdlib.h>` to use the `free` function to free up the memory used by `str1`.  If we do not free the memory, it will result in what is called a memory leak. 
 
-Take note that this code could also work even if we don't use the `realloc` function to resize the `str1` but only sometimes and it is dangerous.
+Take note that this code could also work even if we don't use the `realloc` function to resize the `str1` but only sometimes and it is dangerous. What do I mean that I could work sometime? Well, if only there are free memory slots next to the location of your array then it could work, but I must say this again, it is dangerous as it will overlap with other memory block if it is larger than the safely allocated one.
+
+There are other functions for dynamic memory allocation but these are the common ones. The `realloc` can either shrink or expand the size of your array depending on the new value given.
+
+I hope this shed some light to others out there who struggled with dynamic memory before even though this is just a simple example.
+
+Thank you for reading and see you on my next!
