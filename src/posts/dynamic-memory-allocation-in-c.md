@@ -5,7 +5,7 @@ description: Demystifying the dynamic memory allocation in C allowing developers
   dynamically typed language, allowing freedom in using flexible length of
   arrays.
 author: syncster
-date: 2023-03-26T04:29:26.836Z
+date: 2023-03-27T04:29:26.836Z
 tags:
   - programming
 ---
