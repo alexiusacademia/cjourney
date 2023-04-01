@@ -26,7 +26,7 @@ struct RectangularChannel
 and then on the core code inside the main function
 
 ```c
-struct RectangularChannel rc;
+    struct RectangularChannel rc;
 
     printf("Enter discharge (cms): ");
     scanf("%f", &rc.discharge);
