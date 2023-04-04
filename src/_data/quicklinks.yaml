@@ -1,1 +1,4 @@
-links: []
+links:
+  - url: /blog
+    title: Blog
+    desc: Join the journey through my articles
