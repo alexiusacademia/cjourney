@@ -31,8 +31,8 @@
 
 5. Structures and Unions
 
-   - [ ] Defining structures and unions
-   - [ ] Accessing and modifying structure members
+   - [x] Defining structures and unions
+   - [x] Accessing and modifying structure members
    - [ ] Nested structures
    - [ ] Pointers to structures
    - [ ] Typedef
