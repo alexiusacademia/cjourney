@@ -29,7 +29,16 @@ collections:
         name: "tags"
         multiple: true
         create: true
-        options: ["comment system", "programming", "language"]
+        options:
+          [
+            "comment system",
+            "programming",
+            "language",
+            "blog",
+            "cjourney",
+            "fluentflow",
+            "SaaS",
+          ]
   - label: "Settings"
     name: "settings"
     editor:
