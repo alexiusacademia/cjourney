@@ -5,6 +5,7 @@ description: "An entry for a side hustle that we are starting in the company
 author: syncster
 date: 2023-04-06T04:12:32.557Z
 tags:
-  - programming
+  - blog
+  - fluentflow
 ---
 # F﻿luentFlow
