@@ -29,6 +29,6 @@ So on April 2, 2023, the project has resumed, not back to zero but only in chang
 
 The target users are professionals and students in the fields of civil, environmental, hydraulic and water resources engineering as well as researches and consultants in the related industries.
 
-We envision a more affordable product that is way more less pain in the pocket than the existing ones and swithing to web is a way to go. Since browsers today are distinguishably more highly performant than the previous decade, we can use this as advantage, delivering more affordable and modern products to the public.
+We envision a more affordable product that is way more less pain in the pocket than the existing ones and switching to web is a way to go. Since browsers today are distinguishably more highly performant than the previous decade, we can use this as advantage, delivering more affordable and modern products to the public.
 
 This is all for this guys, thank you for reading and see you on the next one!
