@@ -13,15 +13,13 @@ It's a web app that we are planning to release as our next SaaS application.
 
 ## FluentFlow
 
-I am the core developer of this app and this is a story about `FluentFlow`. 
-
 Back in February 12, 2023, I started to plan and code a desktop application with the same name, `FluentFlow`. FluentFlow is a software for analyzing open channel flows such as in rivers and irrigation and drainage canals. At first, we planned that it will be a cross platform desktop application. 
 
 ## Challenges
 
 It was primarily being developed in python with a mixture of C for performance in the core of the application. However, developing this size and features could take us an incredible amount of time and other resources. 
 
-So I stepped back in the development and returned back to the drawing board. I have experience for both desktop and web development so I can say that I can fairly compair the two in terms of development and deployment. 
+So I stepped back in the development and returned back to the drawing board. I have experience for both desktop and web development so I can say that I can fairly compare the two in terms of development and deployment. 
 
 With all the parameters in mind and some comparisons with the stacks, we have concluded that the app will be continued to be developed for the web platform. Not only that the development tools and resources and easier to find, the deployment and customer reach will also improve. Both complexity and reachability to possible consumers.
 
